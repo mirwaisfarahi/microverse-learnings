@@ -7,6 +7,16 @@ const tekkenCharacter = {
     human: true
 };
 
+// Object Creation Methods:
+// 1. Using Notion {} : 
+const foo = {a: 1, b: 2};
+
+// 2. Object() constructor:
+let o = new Object();
+o.foo = 'apple';
+// console.log(o) // return { foo: 'apple' }
+
+
 // to add an additional property, such as "origin"
 tekkenCharacter.origin = 'South Korea';
 
